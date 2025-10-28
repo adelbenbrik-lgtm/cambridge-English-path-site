@@ -52,7 +52,7 @@ const LevelView: React.FC<LevelViewProps> = ({ level, progress, onSelectModule, 
                 </div>
                 <div>
                     <h2 className="text-4xl font-bold text-cambridge-dark">{level.name}</h2>
-                    <p className="text-xl text-gray-600">Complete all modules to pass the level.</p>
+                    <p className="text-xl text-black">Complete all modules to pass the level.</p>
                 </div>
             </div>
             

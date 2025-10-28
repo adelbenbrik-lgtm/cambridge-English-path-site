@@ -30,7 +30,7 @@ const LevelDashboard: React.FC<LevelDashboardProps> = ({ levels, progress, onSel
     return (
         <div>
             <h2 className="text-3xl font-bold text-cambridge-dark mb-2">Your Learning Path</h2>
-            <p className="text-lg text-gray-600 mb-8">Complete each level to unlock the next. Good luck!</p>
+            <p className="text-lg text-black mb-8">Complete each level to unlock the next. Good luck!</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {levels.map((level, index) => (
                     <LevelCard 

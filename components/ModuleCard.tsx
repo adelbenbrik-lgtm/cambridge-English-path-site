@@ -13,8 +13,8 @@ const ModuleCard: React.FC<ModuleCardProps> = ({ module, status, onClick }) => {
 
     const baseClasses = "rounded-lg p-6 transition-all duration-300 flex items-center space-x-4";
     const statusClasses = {
-        locked: 'bg-gray-200 text-gray-500 cursor-not-allowed',
-        unlocked: 'bg-white shadow hover:shadow-lg hover:border-cambridge-blue border-2 border-transparent cursor-pointer',
+        locked: 'bg-gray-200 text-black cursor-not-allowed',
+        unlocked: 'bg-white text-black shadow hover:shadow-lg hover:border-cambridge-blue border-2 border-transparent cursor-pointer',
         completed: 'bg-green-100 border-2 border-green-500 text-green-800 cursor-pointer',
     };
 

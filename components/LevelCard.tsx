@@ -25,8 +25,8 @@ const LevelCard: React.FC<LevelCardProps> = ({ level, status, onClick }) => {
     
     const baseClasses = "relative rounded-lg shadow-lg p-6 flex flex-col justify-between transition-all duration-300 transform";
     const statusClasses = {
-        locked: 'bg-gray-300 text-gray-500 cursor-not-allowed',
-        unlocked: `bg-white hover:shadow-xl hover:-translate-y-1 cursor-pointer border-2 border-cambridge-blue`,
+        locked: 'bg-gray-300 text-black cursor-not-allowed',
+        unlocked: `bg-white text-black hover:shadow-xl hover:-translate-y-1 cursor-pointer border-2 border-cambridge-blue`,
         completed: 'bg-green-600 text-white cursor-pointer hover:bg-green-700',
     };
 

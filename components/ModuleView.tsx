@@ -57,7 +57,7 @@ const ModuleView: React.FC<ModuleViewProps> = ({ level, module, onStartTest, onB
                 Back to Modules
             </button>
             <h2 className="text-3xl font-bold text-cambridge-dark mb-2">{module.name}</h2>
-            <p className="text-lg text-gray-500 mb-6">Lesson for {level.name} ({level.cefr})</p>
+            <p className="text-lg text-black mb-6">Lesson for {level.name} ({level.cefr})</p>
 
             <div className="border-t border-gray-200 pt-6">
                 {isLoading && <LoadingSpinner />}
